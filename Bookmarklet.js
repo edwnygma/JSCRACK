@@ -1,77 +1,77 @@
-// <!DOCTYPE html>
-// <html>
-// <head>
-// <meta charset="utf-8" />
-// <title>KEK</title>
-// <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-// <!--
-// <script src="/!/static/jslib/modernizr/2.6.2/modernizr.min.js"></script>
-// -->
-// <script src="/!/static/jslib/jquery/3.3.1/jquery.min.js"></script>
-// <script src="/!/static/jslib/jquery-ui/1.12.1/jquery-ui.min.js"></script>
-// <script src="/!/static/jslib/sidr/2.2.1/jquery.sidr.js"></script>
-// <link rel="stylesheet" href="/!/static/jslib/sidr/2.2.1/jquery.sidr.light.css" />
-// <script src="/!/static/jslib/mediaelement/4.2.7/build/mediaelement-and-player.min.js"></script>
-// <link rel="stylesheet" href="/!/static/jslib/mediaelement/4.2.7/build/mediaelementplayer.css" />
-// <!--
-// <script src="/!/static/jslib/mediaelement-playlist/A/mep-feature-playlist.js"></script>
-// <link rel="stylesheet" href="/!/static/jslib/mediaelement-playlist/A/mep-feature-playlist.css" />
-// -->
-// <script src="/!/static/jslib/lightbox/2.10.0/dist/js/lightbox.min.js"></script>
-// <link rel="stylesheet" href="/!/static/jslib/lightbox/2.10.0/dist/css/lightbox.min.css" />
-// <script src="/!/static/jslib/font-awesome/5.0.2/svg-with-js/js/fontawesome-all.min.js"></script>
-// <script src="/!/static/cms/2.0.2/functions.js"></script>
-// <link rel='stylesheet' href='/!/static/cms/2.0.2/core.css' />
-// <link rel='stylesheet' href='/!/static/cms/2.0.2/teasers.css' />
-// <link rel='stylesheet' href='/sitebuilder/style.css' />
-// <link rel='shortcut icon' href='/@/SiteBuilder/files/favicon.ico' type='image/x-icon' />
-// <meta name='description' content='The official homepage of the guitarist and IT guru. Includes music as well as information on men&#39;s fashion, finances, books, health, and the deluxe life.  ' />
-// <meta name='keywords' content='Rob Gravelle, Ivory Knight, guitar, music, musician, lessons, tablature, tabs, Ottawa, band, heavy metal, songs, guitar god of ottawa, finances, investing, investments, men&#39;s fashion, etro, hugo boss, Michael Kors, watches, Invicta, Raymond Weil, Thomas Cabo, ETF, exchage traded funds, mutual funds, stocks, indexes, index investing, scams, identity theft, Bugatchi Uomo, Robert Graham, diamond watches, Scott Kay, David Yurman, leverage' />
-// <style>
-// @font-face { font-family: main-heading-font; src: url(/@/SiteBuilder/_skins/5/fonts/main_heading.ttf)}
-// div#header h1#main_heading { font-family: main-heading-font; font-size: 50px; font-weight: normal; color: #555; }
-// @font-face { font-family: menu-font; src: url(/@/SiteBuilder/_skins/5/fonts/menu.ttf) }
-// div#main_links a, div#main_menu a { text-decoration: none; font-family: menu-font; display: inline-block; font-size: 16px; color: #fff; }
-// div#main_links a:hover, div#main_menu a:hover { color: silver; text-decoration: underline; }
-// div#main_links a.menu-item-selected { color: silver; }
-// @font-face { font-family: page-heading-font; src: url(/@/SiteBuilder/_skins/5/fonts/page_heading.ttf) }
-// h2 { font-family: page-heading-font; font-size: 30px; color: silver; }
-// @font-face { font-family: teaser-heading-font; src: url(/@/SiteBuilder/_skins/5/fonts/teaser.ttf) }
-// div#teasers div.teaser_heading { font-family: teaser-heading-font; font-weight: normal; font-size: 18px; color: #55554F; }
-// div#site_photo { background-repeat: no-repeat; background-position: top center; background-size: cover; }
-// </style>
-// <link rel='stylesheet' href='/@/SiteBuilder/_skins/5/style/_main.css' media='screen' />
-// </head><body class='sitebuilder page' id='sitebuilder'>
-// <div id='overlayer' style='display:none'><div id='overlayer_window'><div id='overlayer_content'></div><div id='overlayer_close'><a href='javascript:void(0)' onclick='javascript:closeOverlayer();return false;'>CLOSE</a></div></div></div>
-// <div id='header_content_footer_wrapper'>
-// <div id='header_content_footer_wrapper_2'>
-// <div id='site_photo'  style='width:247px; height:164px; background-image: url(/@/SiteBuilder/_skins/5/images/matte/overlay.png), url(/@/SiteBuilder/_skins/5/.custom/photos/MAIN-scaled.jpg); background-size:cover,contain; '><img style='visibility:hidden' src='/@/SiteBuilder/_skins/5/.custom/photos/MAIN-scaled.jpg' /></div>
-// <div id='header'>
-// <h1 id='main_heading'><span>Rob Gravelle</span></h1>
-// </div> <!-- div#header -->
-// <div id='main_links'>
-// <ul class='main_link_group' id='main_link_group_1'>
-// <li class='main_link' id='news_main_link'><a href='/news/' >News</a></li>
-// <li class='main_link' id='bio_main_link'><a href='/bio/' >Bio</a></li>
-// <li class='main_link' id='press_main_link'><a href='/press/' >Interviews</a></li>
-// <li class='main_link' id='albums_main_link'><a href='/albums/' >Music</a></li>
-// <li class='main_link' id='photos_main_link'><a href='/photos/' >Photos</a></li>
-// <li class='main_link' id='misca_main_link'><a href='/misca/' >Lessons</a></li>
-// <li class='main_link' id='miscb_main_link'><a href='/miscb/' >Tabs</a></li>
-// <li class='main_link' id='contact_main_link'><a href='/contact/' >Contact</a></li>
-// <li class='main_link' id='links_main_link'><a href='/links/' >Links</a></li>
-// </ul> <!-- ul#main_link_group_1 -->
-// </div> <!-- div#main_links (div#main_menu for skeleton 1) -->
-// <div id='content_wrapper'>
-// <div id='cms-container-content'>
-// <div id='content'>
-// <h2 id='page_title'>Site Builder</h2>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>KEK</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<!--
+<script src="/!/static/jslib/modernizr/2.6.2/modernizr.min.js"></script>
+-->
+<script src="/!/static/jslib/jquery/3.3.1/jquery.min.js"></script>
+<script src="/!/static/jslib/jquery-ui/1.12.1/jquery-ui.min.js"></script>
+<script src="/!/static/jslib/sidr/2.2.1/jquery.sidr.js"></script>
+<link rel="stylesheet" href="/!/static/jslib/sidr/2.2.1/jquery.sidr.light.css" />
+<script src="/!/static/jslib/mediaelement/4.2.7/build/mediaelement-and-player.min.js"></script>
+<link rel="stylesheet" href="/!/static/jslib/mediaelement/4.2.7/build/mediaelementplayer.css" />
+<!--
+<script src="/!/static/jslib/mediaelement-playlist/A/mep-feature-playlist.js"></script>
+<link rel="stylesheet" href="/!/static/jslib/mediaelement-playlist/A/mep-feature-playlist.css" />
+-->
+<script src="/!/static/jslib/lightbox/2.10.0/dist/js/lightbox.min.js"></script>
+<link rel="stylesheet" href="/!/static/jslib/lightbox/2.10.0/dist/css/lightbox.min.css" />
+<script src="/!/static/jslib/font-awesome/5.0.2/svg-with-js/js/fontawesome-all.min.js"></script>
+<script src="/!/static/cms/2.0.2/functions.js"></script>
+<link rel='stylesheet' href='/!/static/cms/2.0.2/core.css' />
+<link rel='stylesheet' href='/!/static/cms/2.0.2/teasers.css' />
+<link rel='stylesheet' href='/sitebuilder/style.css' />
+<link rel='shortcut icon' href='/@/SiteBuilder/files/favicon.ico' type='image/x-icon' />
+<meta name='description' content='The official homepage of the guitarist and IT guru. Includes music as well as information on men&#39;s fashion, finances, books, health, and the deluxe life.  ' />
+<meta name='keywords' content='Rob Gravelle, Ivory Knight, guitar, music, musician, lessons, tablature, tabs, Ottawa, band, heavy metal, songs, guitar god of ottawa, finances, investing, investments, men&#39;s fashion, etro, hugo boss, Michael Kors, watches, Invicta, Raymond Weil, Thomas Cabo, ETF, exchage traded funds, mutual funds, stocks, indexes, index investing, scams, identity theft, Bugatchi Uomo, Robert Graham, diamond watches, Scott Kay, David Yurman, leverage' />
+<style>
+@font-face { font-family: main-heading-font; src: url(/@/SiteBuilder/_skins/5/fonts/main_heading.ttf)}
+div#header h1#main_heading { font-family: main-heading-font; font-size: 50px; font-weight: normal; color: #555; }
+@font-face { font-family: menu-font; src: url(/@/SiteBuilder/_skins/5/fonts/menu.ttf) }
+div#main_links a, div#main_menu a { text-decoration: none; font-family: menu-font; display: inline-block; font-size: 16px; color: #fff; }
+div#main_links a:hover, div#main_menu a:hover { color: silver; text-decoration: underline; }
+div#main_links a.menu-item-selected { color: silver; }
+@font-face { font-family: page-heading-font; src: url(/@/SiteBuilder/_skins/5/fonts/page_heading.ttf) }
+h2 { font-family: page-heading-font; font-size: 30px; color: silver; }
+@font-face { font-family: teaser-heading-font; src: url(/@/SiteBuilder/_skins/5/fonts/teaser.ttf) }
+div#teasers div.teaser_heading { font-family: teaser-heading-font; font-weight: normal; font-size: 18px; color: #55554F; }
+div#site_photo { background-repeat: no-repeat; background-position: top center; background-size: cover; }
+</style>
+<link rel='stylesheet' href='/@/SiteBuilder/_skins/5/style/_main.css' media='screen' />
+</head><body class='sitebuilder page' id='sitebuilder'>
+<div id='overlayer' style='display:none'><div id='overlayer_window'><div id='overlayer_content'></div><div id='overlayer_close'><a href='javascript:void(0)' onclick='javascript:closeOverlayer();return false;'>CLOSE</a></div></div></div>
+<div id='header_content_footer_wrapper'>
+<div id='header_content_footer_wrapper_2'>
+<div id='site_photo'  style='width:247px; height:164px; background-image: url(/@/SiteBuilder/_skins/5/images/matte/overlay.png), url(/@/SiteBuilder/_skins/5/.custom/photos/MAIN-scaled.jpg); background-size:cover,contain; '><img style='visibility:hidden' src='/@/SiteBuilder/_skins/5/.custom/photos/MAIN-scaled.jpg' /></div>
+<div id='header'>
+<h1 id='main_heading'><span>Rob Gravelle</span></h1>
+</div> <!-- div#header -->
+<div id='main_links'>
+<ul class='main_link_group' id='main_link_group_1'>
+<li class='main_link' id='news_main_link'><a href='/news/' >News</a></li>
+<li class='main_link' id='bio_main_link'><a href='/bio/' >Bio</a></li>
+<li class='main_link' id='press_main_link'><a href='/press/' >Interviews</a></li>
+<li class='main_link' id='albums_main_link'><a href='/albums/' >Music</a></li>
+<li class='main_link' id='photos_main_link'><a href='/photos/' >Photos</a></li>
+<li class='main_link' id='misca_main_link'><a href='/misca/' >Lessons</a></li>
+<li class='main_link' id='miscb_main_link'><a href='/miscb/' >Tabs</a></li>
+<li class='main_link' id='contact_main_link'><a href='/contact/' >Contact</a></li>
+<li class='main_link' id='links_main_link'><a href='/links/' >Links</a></li>
+</ul> <!-- ul#main_link_group_1 -->
+</div> <!-- div#main_links (div#main_menu for skeleton 1) -->
+<div id='content_wrapper'>
+<div id='cms-container-content'>
+<div id='content'>
+<h2 id='page_title'>Site Builder</h2>
 
-// <h3>Missing Document</h3>
+<h3>Missing Document</h3>
 
-// <p>The requested page cannot be found.</p>
+<p>The requested page cannot be found.</p>
 
-// <p><a href="/">Click here to go to the Home Page.</a></p>
+<p><a href="/">Click here to go to the Home Page.</a></p>
 
 // <!-- do not use "display:none" below, or else page formatting may be off -->
 <script type='text/javascript'>
@@ -158,9 +158,9 @@
         }
     }
 </script>
-// <div id='navicon'><a href='javascript:void(0)' style='display:block;'><svg height="32px" width="32px" viewBox="0 0 32 32"><path d="M4,10h24c1.104,0,2-0.896,2-2s-0.896-2-2-2H4C2.896,6,2,6.896,2,8S2.896,10,4,10z M28,14H4c-1.104,0-2,0.896-2,2  s0.896,2,2,2h24c1.104,0,2-0.896,2-2S29.104,14,28,14z M28,22H4c-1.104,0-2,0.896-2,2s0.896,2,2,2h24c1.104,0,2-0.896,2-2  S29.104,22,28,22z"/></svg></a></div>
-// </body>
-// </html>
+<div id='navicon'><a href='javascript:void(0)' style='display:block;'><svg height="32px" width="32px" viewBox="0 0 32 32"><path d="M4,10h24c1.104,0,2-0.896,2-2s-0.896-2-2-2H4C2.896,6,2,6.896,2,8S2.896,10,4,10z M28,14H4c-1.104,0-2,0.896-2,2  s0.896,2,2,2h24c1.104,0,2-0.896,2-2S29.104,14,28,14z M28,22H4c-1.104,0-2,0.896-2,2s0.896,2,2,2h24c1.104,0,2-0.896,2-2  S29.104,22,28,22z"/></svg></a></div>
+</body>
+</html>
 
 
 
